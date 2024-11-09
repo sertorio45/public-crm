@@ -604,7 +604,7 @@
 .tox .tox-toolbar__group:last-child button {
     padding: 6px 8px;
     background: #eff6ff;
-    color: #6025eb;
+    color: rgb(123 70 255);
 }
 
 .tox .tox-toolbar__group:last-child button:hover {

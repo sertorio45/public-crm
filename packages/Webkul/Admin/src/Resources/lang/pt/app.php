@@ -17,7 +17,7 @@ return [
         'persons'         => 'Pessoas',
         'organizations'   => 'Organizações',
         'products'        => 'Produtos',
-        'settings'        => 'Configurações',
+        'settings'        => 'Administração',
         'groups'          => 'Grupos',
         'roles'           => 'Funções',
         'users'           => 'Usuários',
@@ -713,7 +713,7 @@ return [
     ],
 
     'settings' => [
-        'title' => 'Configurações',
+        'title' => 'Administração',
 
         'groups' => [
             'index' => [
@@ -754,7 +754,7 @@ return [
                 'delete-failed'             => 'Função não pode ser excluída.',
                 'delete-success'            => 'Função excluída com sucesso.',
                 'last-delete-error'         => 'Pelo menos uma função é necessária.',
-                'settings'                  => 'Configurações',
+                'settings'                  => 'Administração',
                 'title'                     => 'Funções',
                 'update-success'            => 'Função atualizada com sucesso.',
                 'user-define-error'         => 'Não é possível excluir a função do sistema.',
@@ -1830,7 +1830,7 @@ return [
 
     'dashboard' => [
         'index' => [
-            'title' => 'Painel de Controle',
+            'title' => 'Dashboard',
 
             'revenue' => [
                 'lost-revenue' => 'Receita Perdida',
@@ -1856,13 +1856,13 @@ return [
             'revenue-by-sources' => [
                 'title'       => 'Receita por Fontes',
                 'empty-title' => 'Nenhum Dado Disponível',
-                'empty-info'  => 'Nenhum dado disponível para o intervalo selecionado',
+                'empty-info'  => 'Sem dados para o intervalo selecionado.',
             ],
 
             'revenue-by-types' => [
                 'title'       => 'Receita por Tipos',
                 'empty-title' => 'Nenhum Dado Disponível',
-                'empty-info'  => 'Nenhum dado disponível para o intervalo selecionado',
+                'empty-info'  => 'Sem dados para o intervalo selecionado.',
             ],
 
             'top-selling-products' => [
@@ -1880,14 +1880,14 @@ return [
             'open-leads-by-states' => [
                 'title'       => 'Leads Abertos por Estados',
                 'empty-title' => 'Nenhum Dado Disponível',
-                'empty-info'  => 'Nenhum dado disponível para o intervalo selecionado',
+                'empty-info'  => 'Sem dados para o intervalo selecionado.',
             ],
         ],
     ],
 
     'layouts' => [
         'app-version'          => 'Versão : :version',
-        'dashboard'            => 'Painel de Controle',
+        'dashboard'            => 'Dashboard',
         'leads'                => 'Leads',
         'quotes'               => 'Cotações',
         'quote'                => 'Cotação',
@@ -1909,7 +1909,7 @@ return [
         'organization'         => 'Organização',
         'products'             => 'Produtos',
         'product'              => 'Produto',
-        'settings'             => 'Configurações',
+        'settings'             => 'Administração',
         'user'                 => 'Usuário',
         'user-info'            => 'Gerencie todos os seus usuários e suas permissões no CRM, o que eles têm permissão para fazer.',
         'groups'               => 'Grupos',
