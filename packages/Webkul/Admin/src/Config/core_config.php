@@ -22,7 +22,7 @@ return [
                 'name'    => 'locale',
                 'title'   => 'admin::app.configuration.index.general.general.locale-settings.title',
                 'type'    => 'select',
-                'default' => 'pt',
+                'default' => 'en',
                 'options' => 'Webkul\Core\Core@locales',
             ],
         ],

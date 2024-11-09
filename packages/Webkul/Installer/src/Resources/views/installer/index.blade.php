@@ -43,7 +43,6 @@
         $locales = [
             'ar'    => 'arabic',
             'en'    => 'english',
-            'pt'    => 'portuguese',
             'tr'    => 'turkish',
         ];
 

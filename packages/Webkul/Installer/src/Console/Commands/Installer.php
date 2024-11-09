@@ -40,7 +40,6 @@ class Installer extends Command
     protected $locales = [
         'ar' => 'Arabic',
         'en' => 'English',
-        'pt' => 'Português',
         'tr' => 'Turkish',
     ];
 
@@ -135,7 +134,7 @@ class Installer extends Command
 
         $this->warn('Step: Seeding basic data for Krayin kickstart...');
         $this->info(app(KrayinDatabaseSeeder::class)->run([
-            'locale'   => $applicationDetails['locale'] ?? 'pt',
+            'locale'   => $applicationDetails['locale'] ?? 'en',
             'currency' => $applicationDetails['currency'] ?? 'USD',
         ]));
 
