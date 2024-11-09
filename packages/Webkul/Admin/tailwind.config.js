@@ -25,7 +25,7 @@ module.exports = {
 
         extend: {
             colors: {
-                brandColor: 'rgb(84, 33, 211)',
+                brandColor: 'rgb(123 70 255)', //cor roxa gs studio
             },
 
             fontFamily: {

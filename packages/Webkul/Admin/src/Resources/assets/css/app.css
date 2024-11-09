@@ -604,7 +604,7 @@
 .tox .tox-toolbar__group:last-child button {
     padding: 6px 8px;
     background: #eff6ff;
-    color: #2563EB;
+    color: #6025eb;
 }
 
 .tox .tox-toolbar__group:last-child button:hover {
@@ -613,4 +613,16 @@
 
 .tox .tox-toolbar__group:last-child button[aria-disabled="true"] {
     @apply cursor-not-allowed opacity-50;
+}
+
+
+
+/* GS STUDIO */
+
+.bg-sky-100 {
+    background-color: rgb(215 210 255)!important;
+}
+
+.text-sky-600 {
+    color: rgb(123 70 255 / var(--tw-text-opacity))!important;
 }
